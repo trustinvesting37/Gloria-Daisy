@@ -16,7 +16,7 @@ body {
     font-family: var(--cuerpo);
     font-size: 16px;
     background: rgb(243, 243, 243);
-    
+
 }
 .hola{
     width: 100%;
@@ -28,9 +28,10 @@ body {
     left: 0;
     background-size: cover;
     overflow: hidden;
+    z-index: -10;
 }
 .imagenbody{
-    
+
     height: 100%;
 
 }
@@ -40,6 +41,7 @@ body {
     top: 30%;
     background-size: cover;
     overflow: hidden;
+    z-index: -10;
 }
 .what{
     width: 60px;
@@ -57,7 +59,7 @@ body {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    
+
 }
 .teleg{
     width: 60px;
@@ -124,10 +126,10 @@ body {
     justify-content: center;
     align-items: center;
     transition: transform .3s ease-in-out;
-    transform: translate(-110%); 
+    transform: translate(-110%);
     box-shadow: 0 0 6px rgba(0,0,0,.5);
     z-index: 10;
-    
+
 }
 .edit{
     font-size: 40px;
@@ -139,7 +141,7 @@ body {
     transform: translate(0);
 }
 .contenido-navegacion{
- 
+
   position: relative;
 }
 .menu-navegacion a{
@@ -160,7 +162,7 @@ body {
     margin: auto;
     overflow: hidden;
     margin-bottom: 20px;
- 
+
 }
 
 
@@ -263,7 +265,7 @@ body {
 .imagen-registro{
     width: 25%;
     display: block;
- 
+
     z-index: 0;
 
     overflow: hidden;
@@ -296,11 +298,11 @@ footer{
     height: 300px;
     padding-top: 5vh;
 
-} 
+}
 footer .contenedor{
     max-width: none;
     width: 100%;
-    
+
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 25px;
@@ -312,9 +314,9 @@ footer .contenedor{
      border-bottom: 1px solid rgba(255, 255, 255, 0.534);
      width: 90%;
      margin: auto;
-     
+
      color: #fff;
-     
+
  }
  .sociales{
      width: 95%;
@@ -323,21 +325,21 @@ footer .contenedor{
      margin-left: 5% ;
      display: flex;
      margin-top: 10px;
-     
-     
+
+
  }
  .sociales a{
 
      text-decoration: none;
      color: #fff;
-     
+
      width: 60px;
      height: 60px;
      line-height: 50px;
      text-align: center;
      margin-left: 15px;
      border: 1px solid rgba(255, 255, 255, 0.774);
-   
+
      border-radius: 50%;
      line-height: 60px;
 
@@ -358,14 +360,14 @@ footer .contenedor{
     }
     .edit{
         font-size: 20px;
-      
-     
+
+
     }
     .menu-navegacion a{
         font-size: 14px;
         margin-left: 25%;
         margin-top: 0;
-      
+
     }
     .contenido-navegacion{
         margin-top: 0px;
@@ -373,7 +375,7 @@ footer .contenedor{
     .cards-1 .contenedor{
         width: 80%;
     }
-    
+
     .imagen-registro{
         width: 60%;
     }
@@ -403,13 +405,13 @@ footer .contenedor{
     }
     .pasos .subtitulo{
         font-size: 20px;
-        
+
     }
     /*FOOTER*/
     .copy{
         text-align: center;
         font-size: 35px;
-    
+
     }
 }
 @media screen and (max-width:365px){
@@ -458,7 +460,7 @@ footer .contenedor{
         padding-bottom: 5px;
         font-size: 15px;
         height: auto;
-        
+
     }
     .edit{
         font-size: 20px;
@@ -476,7 +478,7 @@ footer .contenedor{
     }
     .teleg{
         bottom: 20vh;
-    
+
     }
 
 }
@@ -491,13 +493,7 @@ footer .contenedor{
     }
     .teleg{
         bottom: 25vh;
-        
+
     }
 
 }
-
-
-
-
-
-
